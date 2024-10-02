@@ -3,8 +3,8 @@ import numpy as np
 
 capt = cv2.VideoCapture(0)
 
-while True:                          # a continious loop starts here
-    ret,frame =capt.read()     # read each frame from the capt
+while True:                                              # a continious loop starts here
+    ret,frame =capt.read()                               # read each frame from the capt
 
     hsvframe = cv2.cvtColor(frame,cv2.COLOR_BGR2HSV)     # convert each frame to hsv format
 
