@@ -12,4 +12,8 @@ Day 2 : [10:20am] combine the detection of two color and apply a mask of another
         #### COLLEGE LECTURE AND LABS HOUR
         [11:55pm] just completed a presentation of above work.
 
+Day 3 : [late night] working on shape detection
+
+Day 4 : [8:15am]  still working on shape detection and and improving the result
+
 
