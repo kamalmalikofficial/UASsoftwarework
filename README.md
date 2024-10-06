@@ -14,8 +14,11 @@ Day 2 : [10:20am] combine the detection of two color and apply a mask of another
 
 Day 3 : [late night] working on shape detection.
 
-Day 4 : [8:15am]  still working on shape detection & improving the result.
-        [6:20pm]  success, The shape detection code is complete.
+Day 4 : [08:15am]  still working on shape detection & improving the result.
+        [06:20pm]  success, The shape detection code is complete.
+Day 5 : [10:00am]  working on diffrent color shape countation
+        [01:00pm]  success to count the triangles.
+        
         
 
 
