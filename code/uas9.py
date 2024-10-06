@@ -37,13 +37,13 @@ edgesgreen3 = cv2.Canny(blurgreen3,50,200)
 # Find contours in the edges
 contours, _ = cv2.findContours(edgesgreen3, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-# Loop through contours to find triangles and remove them
+# Loop through contours to find triangles and color them
 for cnt in contours:
     # Approximate to detect if the shape is a triangle
     approx = cv2.approxPolyDP(cnt, 0.04 * cv2.arcLength(cnt, True), True)
     if len(approx) == 3: 
-        cv2.drawContours(image, [cnt], 0, (113,169,44), -10) 
-        cv2.drawContours(image, [cnt], 0, (113,169,44), 10) 
+        cv2.drawContours(image, cnt, 0, (113,169,44), -10) 
+        cv2.drawContours(image, cnt, 0, (113,169,44), 10) 
         
 
 
