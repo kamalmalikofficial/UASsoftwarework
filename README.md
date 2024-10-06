@@ -18,6 +18,7 @@ Day 4 : [08:15am]  still working on shape detection & improving the result.
         [06:20pm]  success, The shape detection code is complete.
 Day 5 : [10:00am]  working on diffrent color shape countation
         [01:00pm]  success to count the triangles.
+        [11:40pm]  completed the code work for the task.
         
         
 
